@@ -16,5 +16,6 @@ else if (letter == 'e')/*continue if is q*/
 continue;
 putchar(letter);/*print letter*/
 }
+putchar('\n'); /*new line*/
 return (0);
 }
