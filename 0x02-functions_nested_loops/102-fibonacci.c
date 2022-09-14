@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *main - main block
- *Description:Print the first 50 fibonacci numbers, starting with 1 and2
+ *Description:Print the first 50 fibonacci number
  *Numbers must be coma and space separated.
  */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 			printf("%lu\n", j);
 		}
 		k = j;
-		j =+ i;
+		j += i;
 		i = k;
 		count++;
 	}
