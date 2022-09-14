@@ -7,6 +7,7 @@
  *from n to 98, followed by a new line.
  *Return: Nothing
  */
+
 void print_to_98(int n)
 {
 	if (n <= 98)
