@@ -3,7 +3,8 @@
 /**
  *main - main block
  *Description:Print the first 50 fibonacci number
- *Numbers must be coma and space separated.
+ *Numbers must be coma and space separated
+ *Return: 0.
  */
 int main(void)
 {
@@ -20,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%lu\n", j);
+			printf("%lu, ", j);
 		}
 		k = j;
 		j += i;
