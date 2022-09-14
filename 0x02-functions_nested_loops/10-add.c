@@ -5,7 +5,7 @@
  *@b: second parameter
  *
  *Description: adds two numbers
- * * Return: Always (0).
+ *Return: Always (0).
  */
 int add(int a, int b)
 {
