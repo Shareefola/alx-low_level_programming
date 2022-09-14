@@ -7,11 +7,6 @@
  *from n to 98, followed by a new line.
  *Return: Nothing
  */
-int main(void)
-{
-	print_to_98(98);
-	return (0);
-}
 void print_to_98(int n)
 {
 	if (n <= 98)
