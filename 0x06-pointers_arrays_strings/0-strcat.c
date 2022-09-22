@@ -7,17 +7,20 @@
  *Return: pointer to resulting string `dest`
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int i, c;
+	int dlen = 0, i;
 
-	for (i = 0; dest[i] != '\0'; i++)
-		;
-	for (c = 0; src[c] != '\0'; c++)
+	while (dest[dlen])
 	{
-		dest[i] = src[c];
-		i++;
+		dlen++;
 	}
-	dest[i] = '\0';
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[dlen] = src[i];
+		dlen++;
+	}
+	dest[dlen] = '\0';
+
 	return (dest);
 }
