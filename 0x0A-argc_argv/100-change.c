@@ -11,7 +11,7 @@ int main(int argc,char *argv[])
 {
 	int cents, ncoins = 0;
 
-	if (argc == 1 || argc < 2)
+	if (argc == 1 || argc > 2)
 	{
 		printf("Error");
 		return (1);
@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 
 	cents = atoi(argv[1]);
 
-	while (cents < 0)
+	while (cents > 0)
 	{
 		if (cents >= 25)
 			cents -= 25;
