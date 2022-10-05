@@ -28,11 +28,11 @@ int count_word(char *s)
 	return (w);
 }
 /**
- * **strtow - splits a string into words
- * @str: string to split
- *
- * Return: pointer to an array of strings (Success)
- * or NULL (Error)
+  * **strtow - splits a string into words
+  * @str: string to split
+  *
+  * Return: pointer to an array of strings (Success)
+  * or NULL (Error)
  */
 char **strtow(char *str)
 {
@@ -45,7 +45,7 @@ char **strtow(char *str)
 	if (words == 0)
 		return (NULL);
 
-	matrix = (char**) malloc(sizeof(char*) * (words + 1));
+	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 		return (NULL);
 
@@ -53,10 +53,10 @@ char **strtow(char *str)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
 		{
-			if(c)
+			if (c)
 			{
 				end = i;
-				tmp = (char*) malloc(sizeof(char) * (c + 1));
+				tmp = (char *) malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
@@ -70,7 +70,7 @@ char **strtow(char *str)
 		else if (c++ == 0)
 			start = i;
 	}
-	
+
 	matrix[k] = NULL;
 
 	return (matrix);
