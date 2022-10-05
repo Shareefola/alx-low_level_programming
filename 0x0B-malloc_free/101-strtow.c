@@ -18,7 +18,7 @@ char **strtow(char *str)
 	{
 		if (s[c] == ' ')
 			flag = 0;
-		else if (flag == 0);
+		else if (flag == 0)
 		{
 			flag = 1;
 			w++;
@@ -46,7 +46,7 @@ char **strtow(char *str)
 		return (NULL);
 
 	matrix = (char**) malloc(sizeof(char*) * (words + 1));
-	if (matrix = NULL)
+	if (matrix == NULL)
 		return (NULL);
 
 	for (i = 0; i <= len; i++)
