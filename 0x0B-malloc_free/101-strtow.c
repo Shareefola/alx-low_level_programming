@@ -7,7 +7,7 @@
  *
  *Return: number of words
  */
-char **strtow(char *str)
+int count_word(char *s)
 {
 	int flag, c, w;
 
