@@ -1,5 +1,5 @@
-#include "CALC_H"
-#include "CALC_H"
+#ifndef "CALC_H"
+#define "CALC_H"
 
 /**
  *struct op - Strucure op
