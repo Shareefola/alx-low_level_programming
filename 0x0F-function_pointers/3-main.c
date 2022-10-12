@@ -4,7 +4,7 @@
  *main - main
  *@argc: argument count
  *@argv: argument array
- *Return: int
+ *Return: int.
  */
 int main(int argc, char **argv)
 {
