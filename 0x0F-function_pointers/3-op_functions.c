@@ -3,7 +3,7 @@
 #include "3-calc.h"
 /**
  *op_add - Struct op
- *@a: The Operation
+ *@a: The Operation.
  *@b: The function associated
  *Return: int
  */

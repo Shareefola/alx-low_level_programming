@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- *get_op_func - identify function
+ *get_op_func - identify function.
  *@s: function
  *Return: int
  */

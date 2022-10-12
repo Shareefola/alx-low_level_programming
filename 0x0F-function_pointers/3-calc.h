@@ -9,7 +9,7 @@
  *struct op - Strucure op
  *
  *@op: The operator
- *@f: The function associated
+ *@f: The function associated.
  */
 typedef struct op
 {

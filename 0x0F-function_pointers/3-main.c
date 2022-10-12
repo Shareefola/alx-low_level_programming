@@ -3,7 +3,7 @@
 /**
  *main - main
  *@argc: argument count
- *@argv: argument array
+ *@argv: argument array.
  *Return: int.
  */
 int main(int argc, char **argv)
