@@ -8,7 +8,7 @@
  *Return: int
  */
 int op_add(int a, int b)
-{
+{6
 	return (a + b);
 }
 /**
