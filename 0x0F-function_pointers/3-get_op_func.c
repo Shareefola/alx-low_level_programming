@@ -12,19 +12,19 @@ int (*get_op_func(char *s))(int, int)
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
-		{"/", po_div},
+		{"/", op_div},
 		{"%", op_mod},
 		{NULL, NULL}
 	};
 	int i;
-	while (i < 5)
+
+	i = 0;
+
+	while (ops[i].op)
 	{
-		if (s[0] == ops[i].op[0])
-		{
+		if (strcmp(ops[i].op, s) == 0)
 			return (ops[i].f);
-		}
 		i++;
 	}
-
 	return (NULL);
 }
