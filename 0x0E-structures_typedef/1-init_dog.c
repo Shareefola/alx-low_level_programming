@@ -8,7 +8,8 @@
  * @owner: pointer to char owner's dog
  * Return: No
  */
-void init_dog(struct dog *d, char *namw, fkoat age, char *owner)
+
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 		return;
@@ -18,4 +19,5 @@ void init_dog(struct dog *d, char *namw, fkoat age, char *owner)
 		d->age = age;
 		d->owner = owner;
 	}
+
 }
