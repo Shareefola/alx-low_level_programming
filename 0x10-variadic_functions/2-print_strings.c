@@ -1,4 +1,4 @@
-#include "variadic_functiins.h"
+#include "variadic_functions.h"
 
 /**
  *print_strings - prints strings
